@@ -16,15 +16,10 @@
 
         <!-- Provider settings -->
         <properties>
-            <!-- JDBC Configuration -->
-<!--            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />-->
-<!--            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/examdb" />-->
-<!--            <property name="jakarta.persistence.jdbc.user" value="root" />-->
-<!--            <property name="jakarta.persistence.jdbc.password" value="mahdy" />-->
 
             <!-- Hibernate Provider Properties -->
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
-            <property name="hibernate.hbm2ddl.auto" value="update" />
+            <property name="hibernate.hbm2ddl.auto" value="create" />
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.format_sql" value="true" />
             <property name="hibernate.use_sql_comments" value="false" />

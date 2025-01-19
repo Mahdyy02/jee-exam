@@ -27,6 +27,8 @@ public class StudentPerformanceAnalytics {
 
     public Boolean calculateStudentPerformance(int studentID){
 
+        meanPerSpeciality.clear();
+
         try{
 
             List<Exam> studentExams = daoManager.searchExamsTaken(studentID);

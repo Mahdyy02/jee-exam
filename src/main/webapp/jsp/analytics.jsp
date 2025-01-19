@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Add Session</title>
+    <title>Analytics</title>
     <link rel="stylesheet" type="text/css" href="../css/select.css">
     <link rel="stylesheet" type="text/css" href="../css/custom_scrollbar.css">
 </head>

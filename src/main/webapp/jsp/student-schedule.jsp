@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sessions List</title>
+  <title>Student Schedule</title>
   <link rel="stylesheet" href="../css/show.css">
   <link rel="stylesheet" type="text/css" href="../css/custom_scrollbar.css">
 </head>
