@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+<!--    <servlet>-->
+<!--        <servlet-name>Login</servlet-name>-->
+<!--        <servlet-class>com.webapp.servlet.Login</servlet-class>-->
+<!--    </servlet>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>Login</servlet-name>-->
+<!--        <url-pattern>/login</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+<!--    <servlet>-->
+<!--        <servlet-name>AddSpeciality</servlet-name>-->
+<!--        <servlet-class>com.webapp.servlet.AddSpeciality</servlet-class>-->
+<!--    </servlet>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>AddSpeciality</servlet-name>-->
+<!--        <url-pattern>/add-speciality</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+<!--    <servlet>-->
+<!--        <servlet-name>AddExam</servlet-name>-->
+<!--        <servlet-class>com.webapp.servlet.AddExam</servlet-class>-->
+<!--    </servlet>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>AddExam</servlet-name>-->
+<!--        <url-pattern>/add-exam</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+<!--    <servlet>-->
+<!--        <servlet-name>AddSession</servlet-name>-->
+<!--        <servlet-class>com.webapp.servlet.AddSession</servlet-class>-->
+<!--    </servlet>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>AddSession</servlet-name>-->
+<!--        <url-pattern>/add-session</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+<!--    <servlet>-->
+<!--        <servlet-name>AddStudent</servlet-name>-->
+<!--        <servlet-class>com.webapp.servlet.AddStudent</servlet-class>-->
+<!--    </servlet>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>AddStudent</servlet-name>-->
+<!--        <url-pattern>/add-student</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+<!--    <servlet>-->
+<!--        <servlet-name>GetExams</servlet-name>-->
+<!--        <servlet-class>com.webapp.servlet.GetExams</servlet-class>-->
+<!--    </servlet>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>GetExams</servlet-name>-->
+<!--        <url-pattern>/get-exams</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+<!--    <servlet>-->
+<!--        <servlet-name>GetSpecialities</servlet-name>-->
+<!--        <servlet-class>com.webapp.servlet.GetSpecialities</servlet-class>-->
+<!--    </servlet>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>GetSpecialities</servlet-name>-->
+<!--        <url-pattern>/get-specialities</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+<!--    <servlet>-->
+<!--        <servlet-name>GetStudents</servlet-name>-->
+<!--        <servlet-class>com.webapp.servlet.GetStudents</servlet-class>-->
+<!--    </servlet>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>GetStudents</servlet-name>-->
+<!--        <url-pattern>/get-students</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+
+</web-app>
