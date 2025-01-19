@@ -30,6 +30,8 @@ public class StudentExamScheduler {
     public Boolean autoSchedule(Integer classroomsNumber, Date beginDate, Date endDate) {
         try {
 
+            schedule.clear();
+
             List<Session> sessions = daoManager.findAllSessions();
 
             for (Session s : sessions) {
