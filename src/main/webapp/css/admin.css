@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #068ef2, #000000);
+    font-family: Arial, sans-serif;
+}
+
+.glass-container {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.navbar > ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.nav-item {
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background 0.3s, color 0.3s;
+    position: relative;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-item.active {
+    background: rgb(0 15 43 / 60%);
+    color: #333;
+}
+
+.nav-item:hover {
+    background: rgb(0 11 54 / 40%);
+    color: #333;
+}
+
+.dropdown {
+    display: none;
+    flex-direction: row;
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1000;
+}
+
+.dropdown li {
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.dropdown li:hover {
+    background: rgba(0, 11, 54, 0.5);
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    display: block;
+}
+
+.content {
+    padding: 20px;
+    color: #fff;
+}
+
+.content h2 {
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 16px;
+}
+
+.page-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.page-description {
+    font-size: 18px;
+    color: #e0e0e0;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
