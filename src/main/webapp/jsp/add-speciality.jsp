@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Speciality Input</title>
+    <title>Add Speciality</title>
     <link rel="stylesheet" type="text/css" href="../css/add.css">
     <link rel="stylesheet" type="text/css" href="../css/custom_scrollbar.css">
 </head>

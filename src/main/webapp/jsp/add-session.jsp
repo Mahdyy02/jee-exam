@@ -7,7 +7,7 @@
 </head>
 <body>
 <div class="glass-container">
-    <div class="page-title">Add Exam</div>
+    <div class="page-title">Add Session</div>
     <form method="post" action="/WebApp-1.0-SNAPSHOT/add-session" class="form-container">
         <select name="student" class="dropdown" id="studentDropdown" required>
             <!-- Options will be dynamically populated -->

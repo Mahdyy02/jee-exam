@@ -28,30 +28,38 @@ public class GetMeanPerSpeciality extends HttpServlet {
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");
 
+        request.setAttribute("jsonData", "[]");
+
         int studentId = Integer.parseInt(request.getParameter("student"));
 
         studentPerformanceAnalytics.calculateStudentPerformance(studentId);
         HashMap<Speciality, Float> meanPerSpeciality = studentPerformanceAnalytics.getMeanPerSpeciality();
 
         StringBuilder json = new StringBuilder();
-        json.append("[");
 
-        int i = 0;
-        for (Speciality speciality : meanPerSpeciality.keySet()) {
-            Float mean = meanPerSpeciality.get(speciality);
-            json.append("{");
-            json.append("\"speciality\":\"").append(speciality.getNameSpeciality()).append("\",");
-            json.append("\"mean\":").append(mean);
-            json.append("}");
-            if (i < meanPerSpeciality.size() - 1) {
-                json.append(",");
+        if (meanPerSpeciality.isEmpty()) {
+            json.append("[]");
+        } else {
+
+            json.append("[");
+
+            int i = 0;
+            for (Speciality speciality : meanPerSpeciality.keySet()) {
+                Float mean = meanPerSpeciality.get(speciality);
+                json.append("{");
+                json.append("\"speciality\":\"").append(speciality.getNameSpeciality()).append("\",");
+                json.append("\"mean\":").append(mean);
+                json.append("}");
+                if (i < meanPerSpeciality.size() - 1) {
+                    json.append(",");
+                }
+                i++;
             }
-            i++;
+            json.append("]");
         }
 
-        json.append("]");
-
         request.setAttribute("jsonData", json.toString());
+
         request.getRequestDispatcher("/jsp/result.jsp").forward(request, response);
 
     }

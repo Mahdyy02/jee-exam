@@ -1,8 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    const jsonData = document.getElementById('jsonData').getAttribute('data-json');
-    const data = JSON.parse(jsonData);
-    const tableBody = document.querySelector('tbody');
+
+    let jsonDataElement = document.getElementById('jsonData');
+    let jsonData = jsonDataElement.getAttribute('data-json');
+    let data = JSON.parse(jsonData);
+    let tableBody = document.querySelector('tbody');
 
     tableBody.innerHTML = "";
 
@@ -15,4 +17,5 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
         tableBody.innerHTML += row;
     });
+
 });
